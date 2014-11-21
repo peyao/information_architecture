@@ -2,6 +2,8 @@ body {
     background-image: url('../img/subtle_patterns/p5.png');
 }
 
+
+
 /*
 -----------
 Top nav bar
@@ -144,10 +146,37 @@ Footer
 #footer {
     background-color: #424242;
     box-shadow: 3px 3px 3px #888888;
-    min-height: 100px;
     
-    padding-top: 20px;
     margin-bottom: 15px;
+}
+
+#footer *{
+    color: white;
+    text-align: center;
+}
+
+#footer h3{
+    margin: 5px auto 1px auto;
+}
+
+#footer a{
+    font-size: 80%;
+    white-space: nowrap;
+}
+
+#footer-site-visitors {
+    background-color: #0B99BC;
+}
+#footer-useful-links {
+    background-color: #5C2D50;
+}
+
+#footer-connect {
+    background-color: #CD1719;
+}
+
+#footer, #footer-connect, #footer-useful-links, #footer-site-visitors{
+       min-height: 60px;
 }
 
 /*
@@ -166,6 +195,11 @@ Other
 Fonts
 -----
 */
+a {
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
 h1 {
     font-family: 'Merriweather', serif;
     color: white;
