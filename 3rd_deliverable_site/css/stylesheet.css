@@ -1,0 +1,192 @@
+body {
+    background-image: url('../img/subtle_patterns/p5.png');
+}
+
+/*
+-----------
+Top nav bar
+-----------
+*/
+#top-section {
+    box-shadow: 3px 3px 3px #888888;
+    margin-bottom: 15px;
+}
+
+.five {
+    width: 20%;   
+}
+
+#nav-link-academics {
+    height: 50px;
+    background-color: #83AA30;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#nav-link-admissions {
+    height: 50px;
+    background-color: #1499D3;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#nav-link-campuslife {
+    height: 50px;
+    background-color: #4D6684;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#nav-link-staff {
+    height: 50px;
+    background-color: #3D3D3D;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#nav-link-research {
+    height: 50px;
+    background-color: #E74700;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+/*
+----
+Body
+----
+*/
+#div-carousel {
+    background-color: #424242;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 100px;
+    
+    padding-top: 20px;
+    margin-bottom: 15px;
+    
+    /* Centers the carousel pictures */
+    text-align: center;
+}
+
+#body-link-about {
+    height: 50px;
+    background-color: #FE9601;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#body-link-alumni {
+    height: 50px;
+    background-color: #CC0063;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#body-link-business {
+    height: 50px;
+    background-color: #86269B;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#body-link-allnews {
+    height: 50px;
+    background-color: #00D2F1;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+#body-link-jobs {
+    height: 50px;
+    background-color: #00B796;
+    
+    text-align: center;
+    padding-top: 8px;
+}
+
+/*
+---------------
+News and Events
+---------------
+*/
+#news {
+    background-color: #424242;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 400px;
+    
+    margin-bottom: 15px;
+    margin-left: -5px;
+}
+
+#events {
+    background-color: #424242;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 400px;
+    
+    margin-bottom: 15px;
+    margin-right: -5px;
+}
+
+/*
+------
+Footer
+------
+*/
+#footer {
+    background-color: #424242;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 100px;
+    
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+/*
+-----
+Other
+-----
+*/
+.bottom-align-left {
+    margin-bottom: -375px;   
+}
+
+
+
+/*
+-----
+Fonts
+-----
+*/
+h1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 130%;
+    color: white;
+}
+
+hr {
+    margin-top: -10px;   
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    color: black;
+}
