@@ -182,7 +182,13 @@ Footer
 }
 
 #footer, #footer-connect, #footer-useful-links, #footer-site-visitors{
-       min-height: 60px;
+       min-height: 65px;
+}
+
+.snicon{
+    width:26%;
+    margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 /*
