@@ -120,13 +120,17 @@ Body
 News and Events
 ---------------
 */
+/*
+#news-events {
+    overflow-x: hidden;
+}*/
+
 #news {
     background-color: #424242;
     box-shadow: 3px 3px 3px #888888;
     min-height: 400px;
     
     margin-bottom: 15px;
-    margin-left: -5px;
 }
 
 #events {
@@ -134,8 +138,8 @@ News and Events
     box-shadow: 3px 3px 3px #888888;
     min-height: 400px;
     
-    margin-bottom: 15px;
     margin-right: -5px;
+    margin-bottom: 15px;
 }
 
 /*
@@ -185,7 +189,8 @@ Other
 -----
 */
 .bottom-align-left {
-    margin-bottom: -375px;   
+    
+    margin-left: 0px;
 }
 
 
