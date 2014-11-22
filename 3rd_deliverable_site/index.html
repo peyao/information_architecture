@@ -22,14 +22,14 @@
 
 <body>
 
-    <div class="row" id="top-section">
+    <div class="row collapse" id="top-section">
         <!-- Top Bar -->
         <div class="contain-to-grid">
             <nav class="top-bar" data-topbar role="navigation">
-                <ul class="title-area">
-                    <li class="name">
+                <ul class="title-area" >
+                    <li class="name" >
                         <a href="index.html">
-                            <img src="img/univ_leicester.png">
+                            <img src="img/univ_leicester.png" >
                         </a>
                     </li>
                     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
@@ -41,7 +41,6 @@
                         <li class="has-form">
                             <a href="#" class="button"><i class="fa fa-map-marker"></i> Maps</a>
                         </li>
-                        <li class="divider"></li>
                         <li class="has-form">
                             <div class="row collapse">
                                 <div class="large-8 small-9 columns">
@@ -58,73 +57,153 @@
         </div> 
     
         <!-- Second row, 'five columns' is custom to allow 5 columns in row-->
-        <a href="#" data-dropdown="academics-drop" data-options="align:bottom" aria-controls="academics-drop" aria-expanded="false">
-            <div class="five columns" id="nav-link-academics">
-                <h3>Academics</h3>
-            </div>
-        </a>
-        <a href="#">
-            <div class="five columns" id="nav-link-admissions">
-                <h3>Admissions</h3>
-            </div>
-        </a>
-        <a href="#">
-            <div class="five columns" id="nav-link-campuslife">
-                <h3>Campus Life</h3>
-            </div>
-        </a>
-        <a href="#">
-            <div class="five columns" id="nav-link-staff">
-                <h3>Staff</h3>
-            </div>
-        </a>
-        <a href="#">
-            <div class="five columns" id="nav-link-research">
-                <h3>Research</h3>
-            </div>
-        </a>
         
-        <!-- Dropdown contents -->
-        <div id="academics-drop" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+        <div class="five columns" id="nav-link-academics">
+            <a href="#" data-dropdown="academics-drop" data-options="align:bottom" aria-controls="academics-drop" aria-expanded="false" class="darken">
+                <h3>Academics</h3>
+            </a>
+        </div>
+        <div class="five columns" id="nav-link-admissions">
+            <a href="#" data-dropdown="admissions-drop" data-options="align:bottom" aria-controls="admissions-drop" aria-expanded="false">
+                <h3>Admissions</h3>
+            </a>
+        </div>
+        <div class="five columns" id="nav-link-campuslife">
+            <a href="#" data-dropdown="campuslife-drop" data-options="align:bottom" aria-controls="campuslife-drop" aria-expanded="false">
+                <h3>Campus Life</h3>
+            </a>
+        </div>
+        <div class="five columns" id="nav-link-staff">
+            <a href="#" data-dropdown="staff-drop" data-options="align:bottom" aria-controls="staff-drop" aria-expanded="false">
+                <h3>Staff</h3>
+            </a>
+        </div>
+        <div class="five columns" id="nav-link-research">
+            <a href="#" data-dropdown="research-drop" data-options="align:bottom" aria-controls="research-drop" aria-expanded="false">
+                <h3>Research</h3>
+            </a>
+        </div>
+        
+        <!-- Dropdown Contents -->
+        <div id="academics-drop" data-dropdown-content class="f-dropdown content large" aria-hidden="true" tabindex="-1">
+            
+
+            <div class="row collapse">
+                <div class="small-9 large-9 columns">
+                    <p class="drop-title">What type of student are you? Are you looking for courses?</p>
+                </div>
+                <div class="small-3 large-3 columns">
+                    <a class="button tiny right alert">Blackboard</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <ul class="inline-list drop-center">
+                        <li><a href="#">> Current Students</a></li>
+                        <li><a href="#">> Prospective Students</a></li>
+                        <li><a href="#">> Graduate Students</a></li>
+                        <li><a href="#">> International Students</a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="small-4 large-4 columns">
+                    <a href="#" class="black-a">> Undergrad Courses</a>
+                </div>
+                <div class="small-4 large-4 columns">
+                    <a href="#" class="black-a">> Graduate Courses</a>
+                </div>
+                <div class="small-4 large-4 columns">
+                    <a href="#" class="black-a">> Graduate Research Degrees</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-4 large-4 columns">
+                    <a href="#" class="black-a">> Distance Learning and CPD</a>
+                </div>
+                <div class="small-4 large-4 columns">
+                    <a href="#" class="black-a">> Part Time Courses</a>
+                </div>
+                <div class="small-4 large-4 columns">
+                    <a href="#" class="black-a">> Parents and Guardians</a>
+                </div>
+                
+                
+            </div>
+            
+            <div class="row collapse">
+                <br>
+                <div class="small-11 large-11 columns">
+                    <input type="text" placeholder="Search for courses" />
+                </div>
+                <div class="small-1 large-1 columns">
+                    <a href="#" class="button tiny postfix">Go</a>
+                </div>
+            </div>
+            <div class="row collapse">
+                <div class="large-12 columns">
+                </div>
+            </div>
+        </div>
+        <div id="admissions-drop" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
             <p>Testing dropdown content.</p>
             <img src="img/univ_leicester.png">
         </div>
+        <div id="campuslife-drop" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+            <p>Testing dropdown content.</p>
+            <img src="img/univ_leicester.png">
+        </div>
+        <div id="staff-drop" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+            <p>Testing dropdown content.</p>
+            <img src="img/univ_leicester.png">
+        </div>
+        <div id="research-drop" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+            <p>Testing dropdown content.</p>
+            <img src="img/univ_leicester.png">
+        </div>
+        <!-- End Dropdown Contents -->
         
     </div><!-- End top bar -->
     
-    <div class="row" id="div-carousel">
-        <div class="large-12 columns home-carousel">
-            <div class="owl-item"><img src="img/home_carousel/1.jpg"></div>
-            <div class="owl-item"><img src="img/home_carousel/2.jpg"></div>
-            <div class="owl-item"><img src="img/home_carousel/3.jpg"></div>
+    <div class="row collapse" id="div-carousel">
+        <div class="row">
+            <div class="large-12 columns home-carousel">
+                <div class="owl-item"><img src="img/home_carousel/1.jpg"></div>
+                <div class="owl-item"><img src="img/home_carousel/2.jpg"></div>
+                <div class="owl-item"><img src="img/home_carousel/3.jpg"></div>
+            </div>
         </div>
         
-        <!-- Second row -->
-        <a href="#">
+        <div class="row collapse">
+            <!-- Second row -->
             <div class="five columns" id="body-link-about">
-                <h3>About</h3>
+                <a href="#" data-tooltip aria-haspopup="true" class="has-tip tip-bottom" title="Read all about the goals and history of the University of Leicester!">
+                    <h3>About</h3>
+                </a>
             </div>
-        </a>
-        <a href="#">
             <div class="five columns" id="body-link-alumni">
-                <h3>Alumni</h3>
+                <a href="#" data-tooltip aria-haspopup="true" class="has-tip tip-bottom" title="Welcome back, alumni! Here you can find special events for alumni and methods of donation.">
+                    <h3>Alumni</h3>
+                </a>
             </div>
-        </a>
-        <a href="#">
             <div class="five columns" id="body-link-business">
-                <h3>Business</h3>
+                <a href="#" data-tooltip aria-haspopup="true" class="has-tip tip-bottom" title="Would you like to do business with our school? We have professionals that provide services ranging from scientific analysis to art production.">
+                    <h3>Business</h3>
+                </a>
             </div>
-        </a>
-        <a href="#">
             <div class="five columns" id="body-link-allnews">
-                <h3>All News</h3>
+                <a href="#" data-tooltip aria-haspopup="true" class="has-tip tip-bottom" title="What's going on at school? The archive edition.">
+                    <h3>All News</h3>
+                </a>
             </div>
-        </a>
-        <a href="#">
             <div class="five columns" id="body-link-jobs">
-                <h3>Jobs</h3>
+                <a href="#" data-tooltip aria-haspopup="true" class="has-tip tip-bottom" title="Part time work for students, full time positions, and long term careers!">
+                    <h3>Jobs</h3>
+                </a>
             </div>
-        </a>
+        </div>
+        
     </div>
     
     <div class="row" id="news-events">
@@ -140,17 +219,17 @@
     
     <!-- Footer -->
     <div class="row" id="footer">
-        <div class="large-4 columns" id="footer-site-visitors">
+        <div class="small-4 large-4 columns" id="footer-site-visitors">
             <div class="row">
 
-                <h3>Site Visitors</h3>
+                <h3 class="noIbar">Site Visitors</h3>
 
             </div>
 
             <div class="row">
 
                 <div class="large-6 columns">
-                    <a href="#">Current Students</a>
+                    <a href="#">Students</a>
                 </div>
 
                 <div class="large-6 columns">
@@ -160,9 +239,9 @@
             </div>
         </div>
 
-        <div class="large-4 columns" id="footer-useful-links">
+        <div class="small-4 large-4 columns" id="footer-useful-links">
             <div class="row">
-                <h3>Useful Links</h3>
+                <h3 class="noIbar">Useful Links</h3>
             </div>
             <div class="row">
 
@@ -177,32 +256,32 @@
             </div>
         </div>
 
-        <div class="large-4 columns" id="footer-connect">
+        <div class="small-4 large-4 columns" id="footer-connect">
             <div class="row">
-                <h3>Connect</h3>
+                <h3 class="noIbar">Connect</h3>
             </div>
             <div class="row">
 
                 <div class="large-4 columns">
-                    <a href="#">Contact Us</a>
+                    <a href="#">Contact</a>
                 </div>
 
                 <div class="large-4 columns">
-                    <a href="#">Staff Directory</a>
+                    <a href="#">Directory</a>
                 </div>
                 
                 <div class="large-4 columns">
                     
                     <a href="#">
-                        <img class="snicon" src="img/facebook-icon.png" alt="facebook">
+                        <i class="fa fa-facebook-square">&nbsp;</i>
                     </a>
                     
                     <a href="#">
-                        <img class="snicon" src="img/twitter-icon.png" alt="twitter">
+                        <i class="fa fa-twitter-square">&nbsp;</i>
                     </a>   
                     
                     <a href="#">
-                        <img class="snicon" src="img/youtube-icon.png" alt="youtube">
+                        <i class="fa fa-youtube-play"></i>
                     </a>
                 </div>
                 
@@ -210,13 +289,15 @@
             </div>
         </div>
     </div>
-
-    
-    </div>
     <!-- End Footer -->
+    
+    
+    
+    
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
     <script src="owl-carousel/owl.carousel.js"></script>    <script>
         $(document).ready(function() {
  
