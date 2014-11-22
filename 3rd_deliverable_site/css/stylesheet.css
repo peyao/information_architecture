@@ -233,6 +233,7 @@ Footer
 
 #footer a:hover {
     color: #1F1F1F;
+    font-weight: bolder;
 }
 
 #footer i {
@@ -241,30 +242,31 @@ Footer
 
 #footer i:hover {
     color: #1F1F1F;
+    font-weight: bolder;
 }
 
 #footer-site-visitors {
-    background-color: #0B99BC;
+    background-color: #0CACD4;
 }
 
     #footer-site-visitors:hover {
-        background-color: #0DBCE7;
+        background-color: #18C6F2;
     }
 
 #footer-useful-links {
-    background-color: #522848;
+    background-color: #6D3660;
 }
 
     #footer-useful-links:hover {
-        background-color: #6D3660;
+        background-color: #894378;
     }
 
 #footer-connect {
-    background-color: #931012;
+    background-color: #CA1619;
 }
 
     #footer-connect:hover {
-        background-color: #CA1619;
+        background-color: #E72326;
     }
 
 #footer-connect, #footer-useful-links, #footer-site-visitors {
@@ -275,17 +277,6 @@ Footer
 
 .footer-row {
     padding-top: 6px;   
-}
-
-.scrollup {
-    width: 40px;
-    height: 40px;
-    opacity: 0.3;
-    position: fixed;
-    bottom: 50px;
-    right: 100px;
-    display: none;
-    text-indent: -9999px;
 }
 
 /*
