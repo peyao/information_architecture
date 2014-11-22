@@ -102,6 +102,10 @@ Body
     text-align: center;
 }
 
+#div-carousel:hover {
+    background-color: #333333;   
+}
+
 #div-carousel a {
     display: block;
     width: 100%;
@@ -178,6 +182,10 @@ News and Events
     margin-bottom: 0px;
 }
 
+    #news:hover {
+        background-color: #333333;
+    }
+
 #events {
     background-color: #424242;
     box-shadow: 3px 3px 3px #888888;
@@ -187,30 +195,40 @@ News and Events
     margin-bottom: 3px;
 }
 
+    #events:hover {
+        background-color: #333333;
+    }
+
 /*
 ------
 Footer
 ------
 */
 #footer {
+    background-color: #424242;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-top: 0px;
+    box-shadow: 3px 3px 3px #888888;
+    max-height: 82px;
 }
+
+    #footer:hover {
+        background-color: #333333;
+    }
 
 #footer * {
     color: white;
     text-align: center;
-    font-weight: bold;
 }
 
 #footer h3 {
-    margin: 5px auto 1px auto;
+    margin: 0px auto 0px auto;
     font-weight: bold;
 }
 
 #footer a {
     font-size: 95%;
-    white-space: nowrap;
 }
 
 #footer a:hover {
@@ -227,20 +245,47 @@ Footer
 
 #footer-site-visitors {
     background-color: #0B99BC;
-    box-shadow: 3px 3px 3px #888888;
 }
+
+    #footer-site-visitors:hover {
+        background-color: #0DBCE7;
+    }
+
 #footer-useful-links {
-    background-color: #5C2D50;
-    box-shadow: 3px 3px 3px #888888;
+    background-color: #522848;
 }
+
+    #footer-useful-links:hover {
+        background-color: #6D3660;
+    }
 
 #footer-connect {
-    background-color: #CD1719;
-    box-shadow: 3px 3px 3px #888888;
+    background-color: #931012;
 }
 
-#footer, #footer-connect, #footer-useful-links, #footer-site-visitors {
-    min-height: 65px;
+    #footer-connect:hover {
+        background-color: #CA1619;
+    }
+
+#footer-connect, #footer-useful-links, #footer-site-visitors {
+    min-height: 35px;
+    max-height: 53px;
+    overflow-y: hidden;
+}
+
+.footer-row {
+    padding-top: 6px;   
+}
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
 }
 
 /*
