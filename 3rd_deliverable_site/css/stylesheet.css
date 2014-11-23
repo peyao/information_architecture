@@ -101,7 +101,7 @@ Body (second level pages)
     padding-top: 20px;
     margin-bottom: 15px;
     
-    /*padding-right: 19px;*/
+    padding-right: 19px;
 }
 
     #body-content:hover {
@@ -111,9 +111,6 @@ Body (second level pages)
 .body-panel {
     background-color: #FFFFFF;
     min-height: 548px;
-    width: 985px;
-    margin-right: 15px;
-    margin-left: -15px;
     padding-top: 15px;
 }
 
@@ -137,6 +134,7 @@ Body (second level pages)
 
 .breadcrumbs {
     border-radius: 0px;
+    margin-right: -15px;
 }
 
 .breadcrumbs a {
