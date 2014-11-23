@@ -2,11 +2,13 @@ body {
     background-image: url('../img/subtle_patterns/p5.png');
 }
 
-/*
--------
-Testing
--------
-*/
+.row {
+    max-width: 1200px;
+}
+
+.page-exists {
+    color: red;
+}
 
 /*
 -----------
@@ -16,6 +18,7 @@ Top nav bar
 .top-bar {
     padding-top: 3px;
     height: 50px;
+    width: 100%;
 }
 
 #top-section {
@@ -86,9 +89,85 @@ Top nav bar
     }
 
 /*
-----
-Body
-----
+-------------------------
+Body (second level pages)
+-------------------------
+*/
+#body-content {
+    background-color: #424242;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 700px;
+    
+    padding-top: 20px;
+    margin-bottom: 15px;
+    
+    /*padding-right: 19px;*/
+}
+
+    #body-content:hover {
+        background-color: #333333;   
+    }
+
+.body-panel {
+    background-color: #FFFFFF;
+    min-height: 548px;
+    width: 985px;
+    margin-right: 15px;
+    margin-left: -15px;
+    padding-top: 15px;
+}
+
+    .body-panel:hover {
+        background-color: #F5F5F5;   
+    }
+
+.body-panel p {
+    color: #333333;
+    text-align: justify;
+}
+
+.body-panel img {
+    border: 1px solid #525252;
+    padding: 2px 2px 2px 2px;
+}
+
+    .body-panel img:hover {
+        opacity: 0.7;
+    }
+
+.breadcrumbs {
+    border-radius: 0px;
+}
+
+.breadcrumbs a {
+    color: #333333;
+}
+
+    .breadcrumbs:hover {
+        background-color: #E0E0E0;
+    }
+
+.side-nav {
+    background-color: #FFFFFF;
+}
+    
+    .side-nav:hover {
+        background-color: #EBEBEB;
+    }
+
+.side-nav li a {
+    font-size: 85%;
+    color: #333333 !important;
+}
+
+    .side-nav li a:hover {
+        text-decoration: underline;
+    }
+
+/*
+------------------
+Home Page Carousel
+------------------
 */
 #div-carousel {
     background-color: #424242;
@@ -224,7 +303,6 @@ Footer
 
 #footer h3 {
     margin: 0px auto 0px auto;
-    font-weight: bold;
 }
 
 #footer a {
