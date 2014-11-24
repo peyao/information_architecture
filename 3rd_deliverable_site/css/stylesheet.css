@@ -102,12 +102,20 @@ Body (second level pages)
     border: 1px solid #424242;
     box-shadow: 3px 3px 3px #888888;
     /*min-height: 700px;*/
-    
     /*padding-top: 20px;*/
     /*padding-right: 19px;*/
     
     margin-bottom: 15px;
-    background-color: #FFFFFF;
+}
+
+/**********Change Font Color Here********/
+#body-content *:not(.button){
+    color: #333333;
+}
+
+/************Change BG Color Here**********/
+#body-content, .breadcrumbs{
+  background-color: #FFFFFF;   
 }
 
 /*
@@ -115,6 +123,11 @@ Body (second level pages)
         background-color: #333333;   
     }
 */
+
+#body-content p{
+    font-size: 12px;   
+}
+
 .body-panel {
     /*background-color: #FFFFFF;*/
     min-height: 548px;
@@ -142,7 +155,6 @@ Body (second level pages)
 .breadcrumbs {
     border: none;
     /*border-radius: 0px;*/
-    background-color: #FFFFFF;
     margin-right: -15px;
 }
 
