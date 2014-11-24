@@ -88,6 +88,10 @@ Top nav bar
         background-color: #FF540A;
     }
 
+#campuslife-drop {
+    max-width: 720px;
+}
+
 /*
 -------------------------
 Body (second level pages)
