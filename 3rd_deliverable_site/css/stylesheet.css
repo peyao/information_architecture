@@ -107,20 +107,16 @@ Body (second level pages)
     /*padding-right: 19px;*/
     
     margin-bottom: 15px;
-    
-    
-}
-
-#body-content *{
     background-color: #FFFFFF;
 }
+
 /*
     #body-content:hover {
         background-color: #333333;   
     }
 */
 .body-panel {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
     min-height: 548px;
     padding-top: 15px;
 }
@@ -146,6 +142,7 @@ Body (second level pages)
 .breadcrumbs {
     border: none;
     /*border-radius: 0px;*/
+    background-color: #FFFFFF;
     margin-right: -15px;
 }
 
@@ -153,14 +150,16 @@ Body (second level pages)
     color: #333333;
 }
 
-    .breadcrumbs:hover {
+    .breadcrumbs a:hover {
+        padding: 2px 2px 2px 2px;
         background-color: #E0E0E0;
     }
 
+/*
 .side-nav {
     background-color: #FFFFFF;
 }
-/*  
+  
     .side-nav:hover {
         background-color: #EBEBEB;
     }
@@ -172,6 +171,7 @@ Body (second level pages)
 
     .side-nav li a:hover {
         text-decoration: underline;
+        background-color: #F5F5F5;
     }
 
 /*
