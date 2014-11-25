@@ -109,9 +109,13 @@ Body (second level pages)
     
     /*padding-top: 20px;*/
     /*padding-right: 19px;*/
-    
     margin-bottom: 15px;
 }
+
+#body-content input{
+    max-width: 20em;   
+}
+
 
 #body-content *{
     background-color: #FFFFFF;
