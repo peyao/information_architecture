@@ -108,8 +108,9 @@ Body (second level pages)
     /*min-height: 700px;*/
     
     /*padding-top: 20px;*/
-    /*padding-right: 19px;*/
+    padding-right: 19px;
     margin-bottom: 15px;
+    background-color: #FFFFFF;
 }
 
 #body-content input{
