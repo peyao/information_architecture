@@ -316,12 +316,12 @@ News and Events
     filter: alpha(opacity=40);
     }
 
-#events1 {
+.events1 {
     padding-top:8px;
     padding-bottom:45px;
 }
 
-#events-span {
+.events-span {
     font-size:10px;
     margin-top: 27px;
 }
