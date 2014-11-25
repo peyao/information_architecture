@@ -92,10 +92,6 @@ Top nav bar
     max-width: 720px;
 }
 
-#staff-drop {
-    max-width: 720px;   
-}
-
 /*
 -------------------------
 Body (second level pages)
@@ -103,31 +99,45 @@ Body (second level pages)
 */
 #body-content {
     /*background-color: #424242;*/
-    border: 1px solid #888888;
+    border: 1px solid #424242;
     box-shadow: 3px 3px 3px #888888;
     /*min-height: 700px;*/
-    
     /*padding-top: 20px;*/
-    padding-right: 19px;
+    /*padding-right: 19px;*/
+    
     margin-bottom: 15px;
-    background-color: #FFFFFF;
 }
 
-#body-content input{
-    max-width: 20em;   
+/**********Change Font Color Here********/
+#body-content *:not(.button){
+    color: #333333;
 }
 
+/************Change BG Color Here**********/
+#body-content, .breadcrumbs{
+  background-color: #FFFFFF;   
+}
 
-#body-content *{
-    background-color: #FFFFFF;
+/*
+    #body-content:hover {
+        background-color: #333333;   
+    }
+*/
+
+#body-content p{
+    font-size: 12px;   
 }
 
 .body-panel {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
     min-height: 548px;
     padding-top: 15px;
 }
-
+/*
+    .body-panel:hover {
+        background-color: #F5F5F5;   
+    }
+*/
 .body-panel p {
     color: #333333;
     text-align: justify;
@@ -152,14 +162,16 @@ Body (second level pages)
     color: #333333;
 }
 
-    .breadcrumbs:hover {
+    .breadcrumbs a:hover {
+        padding: 2px 2px 2px 2px;
         background-color: #E0E0E0;
     }
 
+/*
 .side-nav {
     background-color: #FFFFFF;
 }
-/*  
+  
     .side-nav:hover {
         background-color: #EBEBEB;
     }
@@ -171,6 +183,7 @@ Body (second level pages)
 
     .side-nav li a:hover {
         text-decoration: underline;
+        background-color: #F5F5F5;
     }
 
 /*
