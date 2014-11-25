@@ -92,6 +92,10 @@ Top nav bar
     max-width: 720px;
 }
 
+#staff-drop {
+    max-width: 720px;   
+}
+
 /*
 -------------------------
 Body (second level pages)
@@ -99,7 +103,7 @@ Body (second level pages)
 */
 #body-content {
     /*background-color: #424242;*/
-    border: 1px solid #424242;
+    border: 1px solid #888888;
     box-shadow: 3px 3px 3px #888888;
     /*min-height: 700px;*/
     
@@ -107,28 +111,18 @@ Body (second level pages)
     /*padding-right: 19px;*/
     
     margin-bottom: 15px;
-    
-    
 }
 
 #body-content *{
     background-color: #FFFFFF;
 }
-/*
-    #body-content:hover {
-        background-color: #333333;   
-    }
-*/
+
 .body-panel {
     background-color: #FFFFFF;
     min-height: 548px;
     padding-top: 15px;
 }
-/*
-    .body-panel:hover {
-        background-color: #F5F5F5;   
-    }
-*/
+
 .body-panel p {
     color: #333333;
     text-align: justify;
